@@ -1,0 +1,16 @@
+.icon {
+    padding: 10px;
+}
+
+progress {
+    padding: 15px;
+}
+label{
+    font-size: 1.2em;
+}
+
+button {
+    padding: 4px;
+    background-color: lightblue;
+    color: black;
+}

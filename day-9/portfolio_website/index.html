@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- navigation -->
@@ -32,13 +34,13 @@
     </section>
     
     <!-- project section -->
-     <h1 style="color:cornflowerblue;" id="project">PROJECT</h1>
+     <h1 style="color:cornflowerblue; text-align: center;" id="project">PROJECT</h1>
      <section  style="display: flex; gap: 100px; ">
         <!-- <h1>PROJECT</h1> -->
         <div style="padding-right: 100px;">
            <h2>Coffee website</h2>
            <p style="color: cadetblue; font-size: 1.5em;">The website is a coffee-themed platform hosted on Vercel. It showcases various coffee products and offers information about different coffee types. The design is visually appealing, aiming to attract coffee enthusiasts. However, specific details about its features and content are limited based on the available information</p>
-           <a href="https://coffee-website-b3g80fomi-anjan-pajiyars-projects.vercel.app/" style="color: inherit; text-decoration: none ;color: red;">website is live :click here</a>
+           <a href="https://coffee-website-1y7c23wjs-anjan-pajiyars-projects.vercel.app/" style="color: inherit; text-decoration: none ;color: red;">website is live :click here</a>
         </div>
 
         <div>
@@ -54,12 +56,84 @@
      </section>
 
      <!-- contact  -->
-      <!-- <section>
-        <h1>CONTACT</h1>
-        <form action="#">
+     
+      <section style="display: flex; justify-content:stretch;">
+            <div>
+                <h1>CONTACT</h1>
+                <form action="#">
+                    <!-- name -->
+                    <div>
+                        <label for="name">NAME:</label>
+                        <br>
+                        <input type="text" id="name" placeholder="enter your name">
+                    </div>
+                     <br>
+                    <!-- email -->
+                     <div>
+                         <label for="email">EMAIL:</label>
+                         <br>
+                         <input type="email" id="email" placeholder="enter you email">
+                     </div>
+                     <br>
+                     <!-- message -->
+                      <div>
+                          <label for="message">MESSAGE:</label>
+                          <br>
+                          <textarea name="message" id="message" cols="25" rows="5" placeholder="drop your message here!!!"></textarea>
+                      </div>
+                      <br>
+                      <!-- submit -->
+                       <div><button>submit</button></div>
+                </form>
+            </div>
 
-        </form>
-      </section> -->
+            <div>
+                <h1>SOCIAL MEDIA HANDLE</h1>
+                <ul style="list-style: none; display: flex; justify-content:space-around;">
+                    <li class="icon"><a href="https://www.instagram.com/anjan.panjiyar/"><i class="fa-brands fa-instagram fa-2xl" style="color: #d62976;"></i></a></li>
+                    <li class="icon"><a href="https://www.linkedin.com/notifications/?filter=all"><i class="fa-brands fa-linkedin fa-2xl" style="color: #0a66c2;"></i></a></li>
+                    <li class="icon"> <a href="https://discord.com/channels/@anjan0581"><i class="fa-brands fa-discord fa-2xl" style="color: #5865f2;"></i></a></li>
+                    <li class="icon"> <a href="https://x.com/AnjanP33488"><i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #1da1f2;"></i></a></li>
+                    <li class="icon"><a href="https://www.facebook.com/panjiyar.anjan"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #1877f2;"></i></a></li>
+                </ul>
+            </div>
+      </section>
+
+      <!-- skill -->
+       <h1 style="text-align: center;">SKILL</h1>
+       <section style="display: flex; justify-content: space-around;">
+        <div>
+            <label for="html">HTML</label>
+            <br>
+            <progress value="80" max="100"></progress>
+        </div>
+        
+        <div>
+            <label for="css">CSS</label>
+            <br>
+            <progress value="60" max="100"></progress>
+        </div>
+        
+        <div>
+            <label for="javascript">JAVASCRIPT</label>
+            <br>
+            <progress value="70" max="100"></progress>
+        </div>
+
+        
+        <div>
+            <label for="react">REACT</label>
+            <br>
+            <progress value="50" max="100"></progress>
+        </div>
+        
+        <div>
+            <label for="nodejs">NODEJS</label>
+            <br>
+            <progress value="40" max="100"></progress>
+        </div>
+       </section>
+      
 
   </body>
 </html>
